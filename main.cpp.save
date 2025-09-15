@@ -1,0 +1,93 @@
+#include <iostream>
+#include <math.h>
+#include <iomanip>
+using namespace std;
+
+
+int cdi=0;
+int fl=0;
+int mnu=0;
+int m;
+int cto=1;
+string mn;
+long long int cd(long long int n){
+    m=n%10;
+    cdi+=m;
+    fl=-1;
+    cto+=1;
+    if(n/10==0){
+        fl=1;
+               if(fl==1){}
+               return cdi;   //return 1;
+    }
+    else
+    {
+        cd(n/10);
+    }
+    B:
+    return cdi;
+}
+int cld=0;
+int cdis(long long int nn,int dkp)
+{
+    cdi=0;
+         int cdl=cd(nn);
+         if(dkp==1){
+         cout<<"\n";
+         cout<<"Initial sum = " << cdl <<"\n";
+         cout<<"\n";}
+         cld=cdl;
+         if(cdl>9){
+             if(dkp==1){
+             cout<<"---------Internal Sum -----------\n";}
+             cdi=0;
+             while(cdl>9){cdi=0;cdl=cd(cdl);
+             if(dkp==1){
+             cout<<"|---> " << cdl <<"\n";}
+             if(cdl<=9){
+                 if(dkp==1){
+                 cout<<"|---> Exiting with " << cdl <<"\n"; cout<<"--------End of Sum------------\n";}
+             break;}
+             }
+         }
+         if(dkp==1){
+         cout<<"\n";}
+         return cdl;
+}
+
+
+int main(int argc,char** argv)
+{
+    cout<<"enter start number \n";
+    int x=0;
+    cin>>x;
+    cout<<"u enter x \n"; cout<<x <<"\n";
+    int tmp;
+    cout<<"enter times to run \n";
+    int tms=0;
+    cin>>tms;
+    cout<<"u enter times to run \n"; cout<<tms <<"\n";
+    cout<<"\n";
+
+    tmp=x;
+    int ct_res=0;
+    int lt_res=0;
+    int l_res=0;
+    for(int i=0;i<=tms;i++){
+          for(int y=0;y<=3;y++){
+
+             lt_res=x+1;
+             lt_res=l
+             cout<<y << " " << lt_res <<"\n";
+          }
+          cout<<"range end " << lt_res <<"\n";
+          l_res=x+lt_res;
+          ct_res=cd(l_res);
+          cout<<"l_res " << l_res <<" with ct_res " << ct_res <<"\n";
+
+
+
+
+    }
+    return 0;
+}

@@ -1,0 +1,28 @@
+u enter the number to start and the times u want to run as sum or range of pivots 
+something like that 
+u enter x 
+0
+u enter times to run 
+20
+
+using x 0 range end 3 += 3 with ct_res 3
+using x 4 range end 7 += 11 with ct_res 2
+using x 8 range end 11 += 19 with ct_res 1
+using x 12 range end 15 += 27 with ct_res 9
+using x 16 range end 19 += 35 with ct_res 8
+using x 20 range end 23 += 43 with ct_res 7
+using x 24 range end 27 += 51 with ct_res 6
+using x 28 range end 31 += 59 with ct_res 5
+using x 32 range end 35 += 67 with ct_res 4
+using x 36 range end 39 += 75 with ct_res 3
+using x 40 range end 43 += 83 with ct_res 2
+using x 44 range end 47 += 91 with ct_res 1
+using x 48 range end 51 += 99 with ct_res 9
+using x 52 range end 55 += 107 with ct_res 8
+using x 56 range end 59 += 115 with ct_res 7
+using x 60 range end 63 += 123 with ct_res 6
+using x 64 range end 67 += 131 with ct_res 5
+using x 68 range end 71 += 139 with ct_res 4
+using x 72 range end 75 += 147 with ct_res 3
+using x 76 range end 79 += 155 with ct_res 2
+using x 80 range end 83 += 163 with ct_res 1
